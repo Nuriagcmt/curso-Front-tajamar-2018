@@ -1,2 +1,2 @@
-# curso-Front-tajamar-2018
+# Curso-Front-Tajamar-2018
 Ejercicios del curso web.

@@ -1,0 +1,23 @@
+#p1 {color: crimson}
+
+/*estecicidad
+
+a - son los valores in line
+b - id
+c - class
+d - etiquetas
+
+a.b.c.d.
+
+
+
+
+/*seleccion mediante id no suele usarse*/
+.p1{color: magenta}
+
+/*seleccion mediante class los mas importantes*/
+.p1{color: rgb(85, 211, 123)}
+
+/*selector mediante etiqueta especicidad 0.0.0.1*/
+.p1{color: midnightblue}
+

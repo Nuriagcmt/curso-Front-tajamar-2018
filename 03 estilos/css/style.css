@@ -1,4 +1,6 @@
-#p1 {color: crimson}
+@import "extras.css";
+
+/*esto es un ejemplo de importacion*/
 
 /*estecicidad
 
@@ -13,11 +15,11 @@ a.b.c.d.
 
 
 /*seleccion mediante id no suele usarse*/
-.p1{color: magenta}
+#p1 {color: magenta}
 
 /*seleccion mediante class los mas importantes*/
-.p1{color: rgb(85, 211, 123)}
+.p1 {color: rgb(85, 211, 123)}
 
 /*selector mediante etiqueta especicidad 0.0.0.1*/
-.p1{color: midnightblue}
+p2 {color: midnightblue}
 

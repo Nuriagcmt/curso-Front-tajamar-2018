@@ -1,0 +1,11 @@
+header p {
+    color: blueviolet;
+    font-size: 1.5;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+footer p {
+    color: darkgreen
+}
+ a:link {color: darkorange}
+ a:visite {color: darkgreen}
+^[name]"loren"{color: mediumpurple }

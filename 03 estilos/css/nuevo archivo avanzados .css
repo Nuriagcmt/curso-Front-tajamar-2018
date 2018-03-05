@@ -1,0 +1,31 @@
+footer p{ color: rgb(67, 185, 20)}
+
+main p { 
+    color: navy;
+}
+[name] {color: darkblue}
+footer :hover p.derechos{font-size: 50px}
+
+section::before {
+    content: "empieza lo bueno";
+    color: cornflowerblue
+
+}
+
+section::after {
+    content: "termina lo bueno";
+    color: coral
+}
+
+section p::before {
+    counter-increment: section;
+    content: content(selection)
+}
+
+section p::before{
+    counter-increment: section;
+    content: counter(selection)
+    " "
+    url(../imagen/pez-payaso.jpg)
+}
+  

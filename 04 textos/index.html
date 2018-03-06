@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>textos</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i" rel="stylesheet">
+
+</head>
+<body>
+    <h2>Textos</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci consequuntur voluptas rerum? Cupiditate totam commodi, rem quia cumque mollitia officia! Magnam, eveniet cum? Soluta vitae explicabo deleniti eveniet, asperiores accusamus?</p>
+    
+   <!-- < menuitem*5(item) -->
+
+    <menuitem></menuitem>
+    <menuitem></menuitem>
+    <menuitem></menuitem>
+    <menuitem></menuitem>
+    <menuitem></menuitem>
+    <item></item>
+    <menu type="context"></menu>
+
+    <menu type="toolbar"></menu>
+
+    <details>
+        <summary>titulo de lo que quieras contar</summary>
+        <!-- el summary se ve sin desplegar -->
+       <!--  el p se ve cuando se despliega el summary, hay que ponerlo fuera del summary -->
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi impedit, error sapiente officia eos aspernatur qui ab illo dolorem! Quo sit vero illo amet odit saepe ducimus tempore perferendis distinctio.</p>
+
+        <button id="open">Open Dialog</button>
+<button id="close">Close Dialog</button>
+
+<dialog id="dialog">
+  <h2>Dialog Title</h2>
+  <p>Dialog content and other stuff will go here</p>
+</dialog>
+
+<script>
+const dialog = document.getElementById("dialog");
+
+document.getElementById("open").addEventListener("click", () => {
+  dialog.show();
+});
+
+document.getElementById("close").addEventListener("click", () => {
+  dialog.close();
+});
+</script>
+    </details>
+    <p>Voy a contaros algoque escribio Tokien en <cite>El señor de los Anillos</cite> </p>
+   
+    <blockquote cite="El Señor de los Anillos">
+        
+       
+        «Tres Anillos para los Reyes Elfos bajo el cielo.
+      
+         <q>Siete para los Señores</q>Enanos en palacios de piedra.
+            Nueve para los Hombres Mortales condenados a morir.
+            Uno para el Señor Oscuro, sobre el trono oscuro
+            en la Tierra de Mordor donde se extienden las Sombras.
+            Un Anillo para gobernarlos a todos. Un Anillo para encontrarlos,
+            un Anillo para atraerlos a todos y atarlos en las tinieblas
+            en la Tierra de Mordor donde se extienden las Sombras».
+
+            <cite>El señor de los Anillos</cite>
+            
+
+            <hr>
+
+            <pre><p>en javascrip se pondria</p>
+                <code> 
+                    var a = 25;
+                    for (i=0; i a; i++){
+                        x = 12;
+                        y = 21
+                    }
+                </code>
+            </pre>
+                
+    </p>
+
+
+
+</body>
+</html>

@@ -1,25 +1,35 @@
+/* @import url('https://fonts.googleapis.com/css?family=Coiny');
+ */
+ @import url('https://fonts.googleapis.com/css?family=Coiny|Monoton');
 body {
 
 
-    font-family: 'Roboto', sans-serif; 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    font-family: 'Roboto', sans-serif, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-header 
-
 h1{
-    font-family: "coiny", cursive;
+    font-family: 'Monoton', cursive;
     font-size: 3rem;
     margin-bottom: 0;
-    
+    color: brown
 
 }
 
 h2 {
-
-    font-family: 'Lobster', cursive;
+   font-family: 'Lobster', cursive;
 }
 h3 {
     font-style: italic;
     font-weight: 400;
+}
+
+h4{
+    font-family: 'Lobster', cursive;
+}
+
+
+h5 {
+    font-family: 'Lobster', cursive;
+}
 }
 
 
@@ -35,4 +45,4 @@ footer p {
  a:visite {color: darkgreen}
 ^[name]"loren"{color: mediumpurple }
  */
- */
+ 

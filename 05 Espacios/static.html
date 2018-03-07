@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>static</title>
+</head>
+<style>
+    * {box-sizing: border-box}
+    .container{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto; /* para que cambie automaticamente de tamaño. Pero primero tienes que crear el  div fuera del body */
+
+        border: 1rem solid; /* si pones el border con elementos flotantes no va a salir porque los elementod flotantes no tienen medidas */
+        /* overflow: auto; */ /* esto sirve para descolasar y que me lo enmarque lo que quiero. */
+
+    }
+
+    .container::after { /* con este container, es un patrón y sirve para lo mismo que overflow en esta situacion */
+
+        content: "";
+        display: block; /* Display: esta propiedad me permite definir como se presentan los cosas */
+        clear: both;
+
+    }
+    p{
+        background: steelblue; 
+        margin-right: 2rem;
+        width: 20%;
+        padding: 2rem;
+        float: left;
+     
+    }
+    p::not(:last-of-type){ margin-right: 6.66%} /*" a todos mis parrafos, menos al último, quiero darles un margen de 20/3"  Es para hacer una colocación simetrica en el ancho de la pagina
+ */
+
+</style>
+<body>
+    <div class= "container" >
+       
+        <h1></h1>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum quo soluta vitae architecto voluptatem voluptatum ea totam placeat provident quae iure, et, nam consequatur ex at beatae? Cupiditate, neque quaerat.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam esse cum illo dicta molestiae similique quod a incidunt? Est sequi, ipsa quisquam autem voluptate mollitia laborum sed alias repellendus sunt!</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque culpa cupiditate doloremque dolore nihil! Ullam fugit ad possimus quia minus saepe, natus alias fugiat porro recusandae at a ducimus dicta!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate praesentium animi facere architecto libero, iure laudantium sunt quam expedita quis neque autem voluptatum molestiae consectetur porro dolore deserunt! Quos, asperiores?</p>
+    
+    </div> <!-- Esto es para dar margenes automaticos -->
+    
+</body>
+</html>

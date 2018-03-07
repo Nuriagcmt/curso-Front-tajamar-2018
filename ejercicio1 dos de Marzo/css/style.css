@@ -6,8 +6,19 @@ body {
 
     font-family: 'Roboto', sans-serif, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+/* Esto es para darle las indicaciones de los margenes de la página */
+.container{
+    width: 90%;
+    max-width: 1080px; /* Esto es para acotar los maximos  */
+    min-width: 480px; /* Esto es para darle un minimo */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    margin-bottom: 5rem
+}
+
 h1{
-    font-family: 'Monoton', cursive;
+    font-family: 'Monoton', cursive; /* "Cuidado" las tipografias son muy sensibles a las mayusculas */
     font-size: 3rem;
     margin-bottom: 0;
     color: brown
@@ -24,14 +35,17 @@ h3 {
 
 h4{
     font-family: 'Lobster', cursive;
-}
+
+
 
 
 h5 {
     font-family: 'Lobster', cursive;
 }
-}
 
+p{
+    width: 50%;
+}
 
 /* * header p {
     color: blueviolet;

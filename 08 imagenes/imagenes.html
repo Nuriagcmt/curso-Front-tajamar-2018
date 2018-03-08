@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Imagenes en la Web</title>
+    <style>
+        img{
+            width: 2rem;
+        }
+        div{ 
+            border: 1px solid;
+            font-size: 4rem;}
+        .dosing img {
+            vertical-align: bottom;
+        }
+        .dosing img::not(:first-of-type){
+            margin-left: -4px;
+        }
+
+
+            
+            
+    </style>
+</head>
+<body>
+    <h1>Imagenes de la Web</h1>
+   
+   
+    <div class="dosing">
+        <img src="http://via.placeholder.com/350x150">
+        <img src="http://via.placeholder.com/350x150">
+        
+    </div>
+    <div>
+        <img src="http://via.placeholder.com/450x250" alt="">
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, quo asperiores dignissimos exercitationem eveniet distinctio quisquam vitae! Voluptatum sed commodi, laborum error eaque quos itaque, nihil exercitationem minus eveniet esse!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, laboriosam consequuntur sit non dolore vero ducimus perferendis totam libero, beatae facere odit est debitis fuga doloremque repellendus id provident! Voluptatibus.</p>
+       
+    </div>
+
+
+</body>
+</html>

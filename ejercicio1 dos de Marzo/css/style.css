@@ -5,7 +5,7 @@ body {
 
 
     font-family: 'Roboto', sans-serif, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: rgba(0, 255, 200, 1)
+    background-color: rgb(139, 233, 236)
 }
 /* Esto es para darle las indicaciones de los margenes de la página */
 .container{
@@ -19,10 +19,12 @@ body {
 }
 
 h1{
-    font-family: 'Monoton', cursive; /* "Cuidado" las tipografias son muy sensibles a las mayusculas */
+    font-family: 'Lobster', cursive; /* "Cuidado" las tipografias son muy sensibles a las mayusculas */
     font-size: 3rem;
     margin-bottom: 0;
-    color: brown
+    color:black;
+    text-align: center
+    
 
 }
 
@@ -44,10 +46,10 @@ h5 {
     font-family: 'Lobster', cursive;
 }
 h6{
-    font-family: 'Monoton', cursive; /* "Cuidado" las tipografias son muy sensibles a las mayusculas */
+    font-family: 'Monoto'Lobster'', cursive; /* "Cuidado" las tipografias son muy sensibles a las mayusculas */
     font-size: 1rem;
     margin-bottom: 0;
-    color: brown}
+    color:black}
 
 
 p{

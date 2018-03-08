@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Posicion2</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body {
+            height: 100vh;
+            opacity: 0.5;
+        }
+        
+        .container { 
+
+            width: 90%;
+            margin: 5%;
+            height: 90;
+            border: 1px solid;
+            position: relative;
+            background-color: palevioletred;
+            
+            }
+           .caja {
+               position: absolute;
+               width: 50px;
+               height: 50px;
+               border: 1px solid;
+           }
+           .caja1 {
+               top: 50px;
+               left: 50px;
+               background-color:rgb(0, 0, 255)
+               
+           }
+           .caja2 {
+               top: 80px;
+               left: 80px;
+               background-color:rgb(255, 136, 0);
+               opacity: .2;
+           }
+
+           .caja3{
+               top: 200px;
+               left: 300px;
+               /* background: rgba(171,48,248,1); */
+               /* background: -moz-linear-gradient(left, rgba(171,48,248,1) 0%, rgba(181,91,241,0.87) 50%, rgba(149,14,246,0.86) 51%, rgba(151,25,240,0.81) 71%, rgba(145,39,231,0.77) 85%, rgba(145,39,231,0.73) 100%);
+               background: -webkit-gradient(left top, right top, color-stop(0%, rgba(171,48,248,1)), color-stop(50%, rgba(181,91,241,0.87)), color-stop(51%, rgba(149,14,246,0.86)), color-stop(71%, rgba(151,25,240,0.81)), color-stop(85%, rgba(145,39,231,0.77)), color-stop(100%, rgba(145,39,231,0.73)));
+               background: -webkit-linear-gradient(left, rgba(171,48,248,1) 0%, rgba(181,91,241,0.87) 50%, rgba(149,14,246,0.86) 51%, rgba(151,25,240,0.81) 71%, rgba(145,39,231,0.77) 85%, rgba(145,39,231,0.73) 100%);
+               background: -o-linear-gradient(left, rgba(171,48,248,1) 0%, rgba(181,91,241,0.87) 50%, rgba(149,14,246,0.86) 51%, rgba(151,25,240,0.81) 71%, rgba(145,39,231,0.77) 85%, rgba(145,39,231,0.73) 100%);
+               background: -ms-linear-gradient(left, rgba(171,48,248,1) 0%, rgba(181,91,241,0.87) 50%, rgba(149,14,246,0.86) 51%, rgba(151,25,240,0.81) 71%, rgba(145,39,231,0.77) 85%, rgba(145,39,231,0.73) 100%); */
+               background: linear-gradient(to right, rgba(171,48,248,1) 0%, rgba(181,91,241,0.87) 50%, rgba(149,14,246,0.86) 51%, rgba(151,25,240,0.81) 71%, rgba(145,39,231,0.77) 85%, rgba(145,39,231,0.73) 100%);
+               
+
+           }
+           .borde1{border: 1px solid black;
+border-radius: 40px;
+background-image: -webkit-gradient(linear, center top, center bottom, from(#fcfcfc), to(#bfbfbf), color-stop(3%, #f7f7f7), color-stop(12%, #f2f2f2), color-stop(90%, #d9d9d9));
+background-image: -webkit-linear-gradient(top, #fcfcfc, #f7f7f7 3%, #f2f2f2 12%, #d9d9d9 90%, #bfbfbf);
+background-image: -moz-linear-gradient(top, #fcfcfc, #f7f7f7 3%, #f2f2f2 12%, #d9d9d9 90%, #bfbfbf);
+background-image: -o-linear-gradient(top, #fcfcfc, #f7f7f7 3%, #f2f2f2 12%, #d9d9d9 90%, #bfbfbf)
+
+           }
+
+
+
+        
+    
+    </style>
+</head>
+<body>
+    <div class="container"><div class=" caja caja1" ></div>
+    <div class="caja caja2 borde1"></div>
+        <div class="caja caja3" ></div></div>
+
+</body>
+</html>

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <link rel="shortcut icon" href="arbol.png" type="image/x-icon">
     <meta charset="UTF-8">
@@ -9,211 +10,236 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/reset.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i" rel="stylesheet">
-    <!-- <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
- -->
+    <link rel="stylesheet" href="../lib/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../lib/fontawesome-free/web-fonts-with-css/css/fontawesome-all.min.css">
     <link href="https://fonts.googleapis.com/css?family=Coiny" rel="stylesheet">
-    
+
 </head>
 
 
-<style> 
-*,{
-            box-sizing: border-box
-        }
+<style>
+    table.t1 {
+        empty-cells: hide;
+        border-collapse: collapse;
+    }
 
-blockquote{
+    table.t1:hover {
+        border-collapse: separate;
+        /* Esto se utiliza para separar o mover las celdas cuando pasas */
+        border-spacing: 4rem;
+    }
 
-    content: "\00AB" "\00BB";
-}
+    .t1 th {
+        padding: 2rem;
+    }
 
-  blockquote::before{
-    
-    content: "open-quote"};
-
-    blockquote::before{
-    
-    content: "close-quote"};
-
-    table.t1{
-            empty-cells: hide;
-            border-collapse: collapse;}
-        table.t1:hover{
-            border-collapse: separate; /* Esto se utiliza para separar o mover las celdas cuando pasas */
-            border-spacing: 4rem; }
-    .t1 th{ padding: 2rem;}
-    .t1 td{ text-align: right;
+    .t1 td {
+        text-align: right;
         padding-right: 1rem;
-       /*  border: .1rem solid */}
+    }
+
     table.t1 td,
     table.t1 th {
         border: .1rem solid;
-        padding: .7rem;}
-    /* th,td { */
-       /*  border: .1rem solid chocolate */
+        padding: .7rem;
+    }
 
-    table.t1 td:nth-last-of-type(odd){
-        background-color:rgb(0, 217, 255); }
-    table.t1 td:nth-last-of-type(even){
-        background-color: rgb(0, 255, 98);}
+    
+
+    table.t1 td:nth-last-of-type(odd) {
+        background-color: rgb(0, 217, 255);
+    }
+
     table.t1 [colspan="2"] {
-        color: cornflowerblue;}
-     .caja2 {
-               top: 80px;
-               left: 80px;
-              /*  background-color:rgba(0, 255, 106, 0.596); */
-              /*  opacity: .1; */
-              background: linear-gradient(to right, rgba(171,48,248,1) 0%, rgba(181,91,241,0.87) 50%, rgba(149,14,246,0.86) 51%, rgba(151,25,240,0.81) 71%, rgba(145,39,231,0.77) 85%, rgba(145,39,231,0.73) 100%); }
+        color: cornflowerblue;
+    }
 
-    img{
-            width:90%;}
-        figure{
-            margin: 10%;
-            padding: 1%;
-            /* float: left */;}
-        .container{
-             width: 90%;
-             margin-right: auto;
-             margin-left: auto;
-             min-height: 100vh;  /* Esto es para que me ocupe todo el ancho de la pantalla y si es necesario que crezca la imagen.
+    .caja2 {
+        top: 80px;
+        left: 80px;
+        /*  background-color:rgba(0, 255, 106, 0.596); */
+        /*  opacity: .1; */
+        background: linear-gradient(to right, rgba(171, 48, 248, 1) 0%, rgba(181, 91, 241, 0.87) 50%, rgba(149, 14, 246, 0.86) 51%, rgba(151, 25, 240, 0.81) 71%, rgba(145, 39, 231, 0.77) 85%, rgba(145, 39, 231, 0.73) 100%);
+    }
 
-           /*   background-image: url("./img/fondo imagen.jpg");
-             background-repeat: repeat; */
-           /*  */ }
-    </style>
+    img {
+        width: 90%;
+    }
+
+    figure {
+        margin: 10%;
+        padding: 1%;
+      
+        ;
+    }
+
+    .container {
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+        min-height: 100vh;
+        /* Esto es para que me ocupe todo el ancho de la pantalla y si es necesario que crezca la imagen.
+
+        
+          */
+    }
+</style>
+
 <body>
 
-    <div class="container"> <figure><img src="./img/santuario-covadonga.jpg" alt="vista del santuario de la virgen"></figure>
-        
-        <header><h1>CUEVAS DE COVADONGA</h1></header> 
-        <p></p>
-        <p></p>
-<main>
-       
-    <!-- <figure><img src="./img/cueva.jpg" alt="cueva de covadonga con cascada" ></figure>
-     -->
-    <article><section> <p>La importancia de Covadonga en Asturias y en España, 
-            ha llevado al santuario a ser un símbolo, basado en la leyenda y en la historia de este lugar.
-    
-     <strong>La Santa Cueva</strong> se ha convertido en un centro casi de peregrinación,
-      alrededor del cual se han construido en 1887 el templo y el complejo de Covadonga, debido en gran parte a Roberto Frasinelli, el Alemán de Corao, para rendir culto a la Santina.</p>
-    
-    
-    </body>
+    <div class="container">
+        <figure>
+            <img src="./img/santuario-covadonga.jpg" alt="vista del santuario de la virgen">
+        </figure>
 
-    <header><p>La Santa Cueva está excavada en la roca, encima de una cascada de agua,
-        donde mora la patrona de Asturias desde hace más de 1.300 años.
-   
-           Para acceder hasta ella, hay que subir una larga escalera.El complejo de Covadonga incluye un Museo que incluyen grabados, pinturas y objetos de orfebrería que representan la evolución del santuario.
-   
-    
-   
-          <strong>El santuario</strong> cuenta también con la Casa de Ejercicios, que es un lugar en el uno se puede hospedar y está ideado para el recogimiento y la reflexión, en un tono claramente religioso.
-           
-           En el entorno religioso hay además una escolanía con coro.</p>
-           <h2>Rutas desde Covadonga</h2>
-
-
-           <p>Video de rutas</p>
-
-           <iframe width="560" height="315" src="https://www.youtube.com/embed/wpy3XyaTHLs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-           <p>Para los aficionados al senderismo, desde Covadonga parten dos rutas bastante conocidas:
-   
-           La Ruta de la Reconquista, etiquetada como de gran recorrido, GR-202 y la Ruta de Orandi, de pequeño recorrido, PR-PNPE-6.</p></header>
-           <figure> <a href="http://infocar.dgt.es/etraffic/"> <img src="./img/mapa-lagos.jpg" alt="mapa de las rutas de los lagos"></a></section></figure>
-    
-   
-    
-
-    <h3>Información de Accesos, horarios y trasportes</h3>
-    <h4>A los lagos</h4>
-    <p></p>
-    <p>Se puede acceder a los lagos en transporte público y vehículo privado todo el año excepto en las fechas de temporada alta con mucha afluencia de público. En estas fechas sólo se puede acceder en transporte público y taxis locales.
-    
-        </p>
         <header>
-                <figure>
-                    <video src="./videos/videoplayback.mp4" controls autoplay></video>
-                    
+            <h1>CUEVAS DE COVADONGA</h1>
+        </header>
+        <br>
+        <main>
+
+
+
+            <article>
+                <section>
+                    <p>La importancia de Covadonga en Asturias y en España, ha llevado al santuario a ser un símbolo, basado
+                        en la leyenda y en la historia de este lugar.
+
+                        <strong>La Santa Cueva</strong> se ha convertido en un centro casi de peregrinación, alrededor del cual se
+                        han construido en 1887 el templo y el complejo de Covadonga, debido en gran parte a Roberto Frasinelli,
+                        el Alemán de Corao, para rendir culto a la Santina.</p>
+
+
+
+
+                    <header>
+                        <p>La Santa Cueva está excavada en la roca, encima de una cascada de agua, donde mora la patrona de
+                            Asturias desde hace más de 1.300 años. Para acceder hasta ella, hay que subir una larga escalera.El
+                            complejo de Covadonga incluye un Museo que incluyen grabados, pinturas y objetos de orfebrería
+                            que representan la evolución del santuario.
+
+
+
+                            <strong>El santuario</strong> cuenta también con la Casa de Ejercicios, que es un lugar en el uno se
+                            puede hospedar y está ideado para el recogimiento y la reflexión, en un tono claramente religioso.
+                            En el entorno religioso hay además una escolanía con coro.</p>
+                        <h2>Rutas desde Covadonga</h2>
+
+
+                        <p>Video de rutas</p>
+
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/wpy3XyaTHLs" frameborder="0" allow="autoplay; encrypted-media"
+                            allowfullscreen></iframe>
+                        <p>Para los aficionados al senderismo, desde Covadonga parten dos rutas bastante conocidas: La Ruta
+                            de la Reconquista, etiquetada como de gran recorrido, GR-202 y la Ruta de Orandi, de pequeño
+                            recorrido, PR-PNPE-6.</p>
+                    </header>
+                    <figure>
+                        <a href="http://infocar.dgt.es/etraffic/">
+                            <img src="./img/mapa-lagos.jpg" alt="mapa de las rutas de los lagos">
+                        </a>
+                </section>
                 </figure>
-            </header>
-</article>
-    
 
-    <h5>Estas son las fechas de 2018</h5>
-  <ul>
-    <li> Semana santa (de Jueves al Domingo, del 28 al 31 de Marzo, ambos incluidos).</li>
-    <li> Verano.- Del 26 de Julio al 8 de Septiembre.</li>
-    <li> Puentes.- Del 6 al 9 de Diciembre.</li></ul>
-    
-    <p>Para más información puedes consultar con la</p><a href="https://www.turismoasturias.es/organiza-tu-viaje/oficinas-de-turismo" target="_blank">Oficina turistica de Asturias</a>
-<aside>
-        <table class="t1 caja2">
-                <tr>
-                    <h6>Localización de Covadonga en Asturias</h6>
-        
 
-        <p></p>
-        
-                    <th>Coordenadas</th>
-        
-                    <td>43°19′00″N 5°03′00″O</td>
-                    
-                
-                </tr>
-                <tr>
-                        <th>Pais</th>
-            
-                        <td>España</td>
-                        
-                    
-                    </tr>
+
+
+                <h3>Información de Accesos, horarios y trasportes</h3>
+                <h4>A los lagos</h4>
+                <br>
+                <p>Se puede acceder a los lagos en transporte público y vehículo privado todo el año excepto en las fechas de
+                    temporada alta con mucha afluencia de público. En estas fechas sólo se puede acceder en transporte público
+                    y taxis locales. </p>
+                <header>
+                    <figure>
+                        <video src="./videos/videoplayback.mp4" controls autoplay></video>
+
+                    </figure>
+                </header>
+            </article>
+
+
+            <h5>Estas son las fechas de 2018</h5>
+            <ul>
+                <li> Semana santa (de Jueves al Domingo, del 28 al 31 de Marzo, ambos incluidos).</li>
+                <li> Verano.- Del 26 de Julio al 8 de Septiembre.</li>
+                <li> Puentes.- Del 6 al 9 de Diciembre.</li>
+            </ul>
+
+            <p>Para más información puedes consultar con la</p>
+            <a href="https://www.turismoasturias.es/organiza-tu-viaje/oficinas-de-turismo" target="_blank">Oficina turistica de Asturias</a>
+            <aside>
+                <table class="t1 caja2">
                     <tr>
-                            <th>Superficie</th>
-                
-                            <td>Total 2.54 km</td>
-                            
-                        
+                        <h6>Localización de Covadonga en Asturias</h6>
+                        <a href="https://es.wikipedia.org/wiki/Virgen_de_Covadonga">
+                            <i class="fa fa-tree" aria-hidden="true"></i>
+                        </a>
+
+
+                        <br>
+                        <tr>
+                            <th>Coordenadas</th>
+
+                            <td>43°19′00″N 5°03′00″O</td>
+                        </tr>
+
+                        <tr>
+                            <th>Pais</th>
+
+                            <td>España</td>
                         </tr>
                         <tr>
-                                <th>Altitud</th>
-                    
-                                <td>media 257 m s. n. m.</td>
-                                
-                            
-                            </tr>
-                            <tr>
-                                    <th>Poblacion</th>
-                        
-                                    <td>58 hab.</td>
-                                    
-                                
-                                </tr>
-                
-        
-                    </table></div>
-  
-<!-- <h1>Batalla Covadonga</h1> 
+                            <th>Superficie</th>
 
+                            <td>Total 2.54 km</td>
+                        </tr>
+                        <tr>
+                            <th>Altitud</th>
 
-        Gobernaba el norte peninsular desde Gijón un bereber llamado Munuza, cuya autoridad fue desafiada por los dirigentes astures que, reunidos en Cangas de Onís en 718 encabezados por Pelayo, decidieron rebelarse negándose a pagar impuestos exigidos, el jaray y el yizia. Tras algunas acciones de castigo a cargo de tropas árabes locales, Munuza solicitó la intervención de refuerzos desde Córdoba. Aunque se restó importancia a lo que estaba sucediendo en el extremo ibérico, el valí Ambasa envió al mando de Al Qama un cuerpo expedicionario sarraceno que probablemente en ningún caso alcanzaría la cifra de 180 000 hombres dada por las crónicas cristianas.1​
-        
-        En cuanto a las fuerzas de Pelayo, la historiografía reciente las cuantifica en poco más de 300 combatientes. Con ellas esperó a los musulmanes en un lugar estratégico, como el angosto valle de Cangas de los Picos de Europa cuyo fondo cierra el monte Auseva, donde un atacante ordenado no dispone de espacio para maniobrar y pierde la eficacia que el número y la organización podrían otorgarle. El enfrentamiento se produjo en la cueva de Covadonga, en el 722, y se saldó con la completa derrota de los sarracenos. Se desconocen las dimensiones exactas del ejército de Pelayo (aunque las crónicas hablan de 300 hombres3​) o el de Al Qama, aunque los recientes descubrimientos arqueológicos hacen pensar que las fuerzas cristianas de la región eran de varios miles4​ y que la rebelión de Pelayo y, consecuentemente, las tropas musulmanas de Al Qama eran de una entidad tal que no cabría calificar al enfrentamiento de escaramuza. La cuestión es que las tropas sarracenas fueron diezmadas, obligando a Munuza a escapar de Gijón, donde se hallaba en ese momento. No logró huir el gobernador musulmán dado que él y sus tropas encontraron la muerte. Al Qama halló la muerte en este lance, mientras que sus fuerzas sufrieron grandes pérdidas en su desordenada huida, al caer sobre ellos una ladera debido a un desprendimiento de tierras, probablemente provocado, cerca de Cosgaya en Cantabria.5​
-        
-        La batalla de Covadonga supuso la primera victoria de un contingente rebelde contra las fuerzas musulmanas y permitió que el reino no volviese a ser atacado. Tuvo una amplia difusión en la historiografía posterior como detonante del establecimiento de una insurrección organizada que desembocaría en la fundación, en principio, del reino independiente de Asturias, y de otros reinos cristianos que culminaría con la formación del Reino de España.1​6​7​
-        
-        Un viejo dicho asturiano dice «Asturias es España y lo demás tierra conquistada». --></aside>
-<footer>
-  
-</footer>
-    
+                            <td>media 257 m s. n. m.</td>
+                        </tr>
+                        <tr>
+                            <th>Poblacion</th>
+
+                            <td>58 hab.</td>
+                        </tr>
+                </table>
+    </div>
+
+    <footer>
+
+    </footer>
+</body>
 <!-- el div que lo incluye todo va fuera del body -->
 <div class="container">
 
-    
-  
-            <address>Nuria Tajamar 2018</p>
-                <p class="derechos">copia lo que quieras</p>
-                <small>texto legal la letra pequeña de la web</small>
-                
-     
-</html><!--  
+
+
+
+
+    <address>Nuria Tajamar 2018
+
+        <p>Para cualquier duda puede contactar con nosotros a traves del email:</p>
+        <a href="mailto:turismo@cangasdeonis.com">Oficina de turismo Asturias</a>
+        <br>
+
+        <p class="derechos">los derechos de la página quedan recogidos en el texto legal</p>
+        <small>Texto de Protección de Información y Datos personales proporcionados en una página. El artículo 3.2 de la Ley Federal
+            de Protección de Datos Personales del 10 de octubre de 2012, que se refiere a la obtención de información personal
+            de clientes, usuarios y proveedores, denominado como Usuario en el futuro, determina que el uso de esta información
+            debe de ser de manera exclusiva para las operaciones y procesos que el Usuario ha contratado con el proveedor
+            del servicio, denominado en el futuro como Proveedor. En el cumplimiento del artículo 1° de dicha ley que establece
+            que ninguna persona puede comercializar, trasladar, vender, intercambiar, reglar o publicar por ningún medio
+            escrito o electrónico conocido o por conocerse, la información que los Usuarios de sus productos o servicios
+            le proporcionen, se establece que: Artículo 1°: La información personal que se está solicitando es propiedad
+            del Usuario, y el Proveedor únicamente la utiliza para dar un mejor servicio. Artículo 2°: El proveedor garantiza
+            que todos los datos proporcionados son almacenados en una base de datos que cuenta con los niveles de seguridad
+            de acurdo a la norma oficial vigente. Artículo 3°: En caso de que la información proporcionada al proveedor sea
+            publicada o comercializada, el proveedor será acreedor a las sanciones que la ley estipula para este tipo de
+            casaos en los artículos 34° fracción III, 51° Fracción II y 125° de la Ley federal de Protección de Datos Personales.</small>
+
+
+
+</html>
+<!--

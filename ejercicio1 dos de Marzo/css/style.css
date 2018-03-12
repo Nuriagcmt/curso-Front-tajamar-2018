@@ -1,5 +1,10 @@
 /* @import url('https://fonts.googleapis.com/css?family=Coiny');
  */
+ *,
+ {
+ box-sizing: border-box
+}
+
  @import url('https://fonts.googleapis.com/css?family=Coiny|Monoton');
 body {
 
@@ -22,34 +27,38 @@ h1{
     font-family: 'Lobster', cursive; /* "Cuidado" las tipografias son muy sensibles a las mayusculas */
     font-size: 3rem;
     margin-bottom: 0;
-    color:black;
-    text-align: center
+    color: cornflowerblue;
+    text-align: center;
     
 
 }
 
 h2 {
    font-family: 'Lobster', cursive;
+   color: cornflowerblue;
 }
 h3 {
     font-style: italic;
     font-weight: 400;
+    color: cornflowerblue;
 }
 
 h4{
-    font-family: 'Lobster', cursive;}
+    font-family: 'Lobster', cursive;
+    color: cornflowerblue;}
 
 
 
 
 h5 {
     font-family: 'Lobster', cursive;
+    color: cornflowerblue;
 }
 h6{
     font-family: 'Monoto'Lobster'', cursive; /* "Cuidado" las tipografias son muy sensibles a las mayusculas */
     font-size: 1rem;
     margin-bottom: 0;
-    color:black}
+    color: cornflowerblue;}
 
 
 p{

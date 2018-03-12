@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>formulario</title>
+    <style>
+        .control-group label {
+            display: inline-block;
+
+            width: 20%;
+            min-width: 10rem;
+        }
+
+        .control-group input {
+            width: 40%;
+            min-width: 10rem;
+        }
+
+        .control-group input:not("type=button") {
+            width: 40%;
+            min-width: 10rem;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Ejemplo de formulario</h1>
+    </header>
+    <main>
+        <form action="" method="GET">
+            <fieldset>
+                <legend>Datos personales</legend>
+                <div class="control-group">
+                    <label for="nombre">Escribe tu nombre</label>
+                    <input type="text" name="nombre_user" id="nombre" maxlength="20"autofocus required minlength="2">
+                    <!-- no le va a dejar escribir mas de 20 caracteres -->
+            </fieldset>
+
+
+            </div>
+            <div class="control-group">
+                <label for="apellido">Escribe tu apellido</label>
+                <input type="text" name="apellido" id="apellido" placeholder="escribe  tus  apellidos"required </div>
+
+                </fieldset>
+                </fieldset>
+            </div>
+            <div class="control-group">
+
+                <label for="curso">Escribe tu curso</label>
+                <input type="text" name="curso" id="curso" value="Desarrollo Web">
+
+
+            </div>
+            <fieldset>
+                <legend>datos academicos</legend>
+                <label for="curso">curso</label>
+                <input type="text" name="curso" id="curso" placeholder="escribe tu curso academico " </div>
+
+            </fieldset>
+            </fieldset>
+            </div>
+            <div class="control-group">
+
+                <label for="password">Escribe tu contradeña</label>
+                <input type="password" name="user_password" id="password" value="escribe tu contradeña">
+
+            </div>
+
+
+            <label for="email">Escribe tu email</label>
+            <input type="search" name="user_email" id="email" value="escribe tu email" required>
+
+            </div>
+
+            </fieldset>
+            <fieldset>
+                <legend>otros datos</legend>
+                <textarea name="datos" id="datos" cols="30" rows="10">
+                    no te molestes en añadir nada
+                </textarea>
+            </fieldset>
+            <div class="control-group"></div>
+            <button type="button">saludo</button>
+            <button type="reser">borrar</button>
+            <!--  <input type="button" value=""> -->
+            <!--   <input type="submit" value="enviar"> -->
+            <!--  <input type="resert" value="borrar">-->
+
+
+
+            </div>
+
+            <legend> ¿que turno quieres? </legend>
+
+            <div class="radio-group">
+                <input type="radio" name="turno" id="mañana" value="mañana" checked>
+                <label for="mañana">mañana</label>
+                <input type="radio" name="turno" id="tarde" value="tarde">
+                <label for="tarde">tarde</label>
+                <input type="radio" name="turno" id="noche" value="noche">
+                <label for="noche">noche</label>
+            </div>
+
+
+            <fieldset>
+                <div class="check-group">
+                    <input type="checkbox" name="isOK" id="isOK">
+                    <label for="isOK">estoy de acuerdo con las condiciones</label>
+
+
+                    <div class="check-group">
+                        <input type="checkbox" name="isOK" id="isOK2">
+                        <label for="isOK2">tambien estoy de acuerdo con.. </label>
+
+
+                    </div>
+                    <div class="control-group">
+                        <label for="">curso</label>
+                        <select name="curso" id="curso">
+                            <option value="from">Desarrollo front</option>
+                            <option value="web">Diseño Web</option>
+                            <option value="node">Servidores node</option>
+                            <option value="sql">sql</option>
+                        </select>
+                    </div>
+
+            </fieldset>
+            <button type="submit">enviar</button>
+
+        </form>
+
+
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,70 @@
+/* @import url('https://fonts.googleapis.com/css?family=Coiny');
+ */
+ *,
+ {
+ box-sizing: border-box
+}
+
+ @import url('https://fonts.googleapis.com/css?family=Coiny|Monoton');
+body {
+
+
+    font-family: 'Roboto', sans-serif, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: lightgray;
+    background-size: cover;
+}
+
+
+h1{
+    font-family: 'Lobster', cursive; 
+    font-size: 3rem;
+    margin-bottom: 0;
+    color: cornflowerblue;
+    text-align: center;
+    
+
+}
+
+h2 {
+   font-family: 'Lobster', cursive;
+   color: cornflowerblue;
+}
+h3 {
+    font-style: italic;
+    font-weight: 400;
+    color: cornflowerblue;
+}
+
+
+.caja2 {
+    top: 80px;
+    left: 80px;
+   
+    background: linear-gradient(to right, rgba(171, 48, 248, 1) 0%, rgba(181, 91, 241, 0.87) 50%, rgba(149, 14, 246, 0.86) 51%, rgba(151, 25, 240, 0.81) 71%, rgba(145, 39, 231, 0.77) 85%, rgba(145, 39, 231, 0.73) 100%);
+}
+.container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    min-height: 1000vh;
+    
+  
+}
+
+header img{
+    width: 800px;
+    height: 300px;
+  
+
+}
+
+p{
+    margin-right: 0rem;
+    width: 50%;
+    padding: 0rem;
+    float: left;}
+
+  
+  .t1 caja2{
+        clear: left;
+    }

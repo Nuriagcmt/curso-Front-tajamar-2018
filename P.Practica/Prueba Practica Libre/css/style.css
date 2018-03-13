@@ -1,0 +1,81 @@
+/* @import url('https://fonts.googleapis.com/css?family=Coiny');
+ */
+ *,
+ {
+ box-sizing: border-box
+}
+
+ @import url('https://fonts.googleapis.com/css?family=Coiny|Monoton');
+body {
+
+
+    font-family: 'Roboto', sans-serif, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(139, 233, 236)
+}
+/* Esto es para darle las indicaciones de los margenes de la página */
+.container{
+    width: 90%;
+    max-width: 1080px; /* Esto es para acotar los maximos  */
+    min-width: 480px; /* Esto es para darle un minimo */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    margin-bottom: 5rem
+}
+
+h1{
+    font-family: 'Lobster', cursive; /* "Cuidado" las tipografias son muy sensibles a las mayusculas */
+    font-size: 3rem;
+    margin-bottom: 0;
+    color: cornflowerblue;
+    text-align: center;
+    
+
+}
+
+h2 {
+   font-family: 'Lobster', cursive;
+   color: cornflowerblue;
+}
+h3 {
+    font-style: italic;
+    font-weight: 400;
+    color: cornflowerblue;
+}
+
+h4{
+    font-family: 'Lobster', cursive;
+    color: cornflowerblue;}
+
+
+
+
+h5 {
+    font-family: 'Lobster', cursive;
+    color: cornflowerblue;
+}
+h6{
+    font-family: 'Monoto'Lobster'', cursive; /* "Cuidado" las tipografias son muy sensibles a las mayusculas */
+    font-size: 1rem;
+    margin-bottom: 0;
+    color: cornflowerblue;}
+
+
+p{
+    width: 50%;
+}
+
+
+/* * header p {
+    color: blueviolet;
+    font-size: 1.5;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+footer p {
+    color: darkgreen
+}
+ a:link {color: darkorange}
+ a:visite {color: darkgreen}
+^[name]"loren"{color: mediumpurple }
+ */
+ 

@@ -1,5 +1,7 @@
 
 //objeto literal
+//los objentos estan formados por propiedades que a su vez son valores..
+
 let nombre = 'Pepe'
 let edad = 23
 let isCasado = true
@@ -34,7 +36,7 @@ console.log(user)
 //otros tipos de objetos
 
 // array ES un canjuntos de propiedades que en lugar de tener una clave se indexan númericamente, no se definen el tamaño, crece y decrece a tu antojo y puedo tener todo tipos de datos  
-
+// para los arrays se utilliza [] en lugar de {}
 let aDatos = [12, 23,45, 45, 87]
 let aDatosChungos = [12,'pepe', true,null, undefined]
 console.log(aDatos)
@@ -66,7 +68,7 @@ aUsuario = [
 ]
 
 console.log(typeof aUsuario)
-//console.log(isArray(Array.isArray))
+console.log(array.isArray(aUsuarios))
 
 
 user.sueldo = 11000

@@ -33,7 +33,7 @@ function main (){
     r = 0/0  
     console.log(r)
     console.log(typeof r)
-    console.log(isNaN)
+    console.log(isNaN)}
     
  main()
 

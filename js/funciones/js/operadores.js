@@ -1,3 +1,5 @@
+import { exists } from "fs";
+
 //operador de asignacion
 let x = 25
 //instruccion que implica que tiene un efecto secundario. side efecct
@@ -58,9 +60,27 @@ y ='def'
 console.log(x<y)
 
 console.log(x.length === y.length)
-
+//operadosr ternario
 // expresion? lo que quiero que pase si es true : lo que quiero que pase si es false
 
-let edad= 40
+let edad= 35
 
 console.log(edad>30? 'Buenos dias': 'hola chaval!!')
+
+let a = 12
+let b = 2
+let c = 4
+
+//if( a > c || a < z ) {
+   // console.log('comprobado')
+
+}
+
+{console.log (2*4+5)}
+
+
+
+
+
+
+

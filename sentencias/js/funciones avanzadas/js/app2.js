@@ -12,6 +12,8 @@ console.log(a)
 
 //los parametros referencia pasan como si fueran referencia
 // es habitual pasar un clon del objeto.
+
+
 function calcularCubo(params) {
     let r 
  

@@ -5,7 +5,7 @@ x = x.toUpperCase()
 //aDatos es una INSTANCIA de array
 let aDatos = [1,12,67]
 
-// Math NO SE INSTANCIA
+// Math NO SE INSTANCIA de array
 
 //let z = new Math()
 

@@ -1,5 +1,5 @@
 {
-  "name": "curso-Front-tajamar-2018",
+  "name": "curso-front-tajamar-2018",
   "version": "1.0.0",
   "description": "Ejercicios del curso web.",
   "main": "index.js",
@@ -22,5 +22,6 @@
   "homepage": "https://github.com/Nuriagcmt/curso-Front-tajamar-2018#readme",
   "dependencies": {
     "http-server": "^0.11.1"
-  }
+  },
+  "devDependencies": {}
 }

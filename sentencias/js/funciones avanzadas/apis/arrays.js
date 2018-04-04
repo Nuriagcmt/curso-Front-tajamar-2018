@@ -23,9 +23,11 @@ console.log(aLetras.length)
 
 ////console.log(aLetras.join(''))
 //console.log(aLetras)
-/* aLetrasOriginal = aLetras.slice(0,aLetras.length-1)// metodo inmutable
-aLetras.sort()
-console.log(aLetras.sort()) */
+ aLetrasOriginal = aLetras.slice(0,aLetras.length)// metodo inmutable de clonado de arrays
+aLetras.sort()// mutables
+console.log('copia No sort', aLetrasOriginal) 
+aLetras.reverse()//nos cambia el array que tenemos reordenandolo
+console.log('Reverse', aLetras)
 
 // metode mutable
 let aNuevo = aLetras.splice(0, 9,"x","z")//esto se utiliza para quitar un elemento del array (n,1) n posicion 1=elementos a quitar

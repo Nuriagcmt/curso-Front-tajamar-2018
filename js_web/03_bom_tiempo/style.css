@@ -1,15 +1,14 @@
-*,::after,::before,*:after,*::before{
+*, *::after, *::before, *:after, *:before {
     box-sizing: border-box;
 }
-
-    
-body{
-    background-color: rgb(214, 127, 21);
+body {
+    background-color: bisque;
     margin: 3rem;
 }
-
-
+main {
+    min-height: 60vh;
+}
 
 .crono {
-    font-size: 10rem
+    font-size: 4rem
 }

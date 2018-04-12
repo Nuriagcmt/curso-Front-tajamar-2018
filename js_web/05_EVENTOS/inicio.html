@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Eventos</title>
+    
+</head>
+<body>
+
+    <header>
+        <h1>Eventos</h1>
+    </header>
+    <main>
+        <a id="enlace" href="algo"></a>
+        <button type="button" id="btnPulsar">Pulsar</button>
+        
+        <button type="button" id="btnPulsarM">Pulsar moderno</button>
+        <a href="http://www.google.com" id="aPulsarM">pulsar moderno</a>
+        
+        
+    </main>
+    
+    <script>
+
+        function btnPulsar (ev)  {
+            let s = 'Hola'
+            alert (s)
+            console.dir(ev)
+        }
+        function btnPulsarM (ev){
+            ev.preventDefault()
+            let s = 'Hola soy más moderno'
+            alert (s)
+            console.dir(this)
+
+        }
+        btnPulsarM()
+        document.querySelector('#btnPulsar').onClick= btnPulsar
+//dom level 2
+        document.querySelector('#btnPulsarM').addEventListener(
+            'click', btnPulsarM)
+        document.querySelector('#aPulsarM').addEventListener(
+            'click', btnPulsarM)
+    </script>
+   
+</body>
+</html>

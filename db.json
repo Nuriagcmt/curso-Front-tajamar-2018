@@ -1,0 +1,11 @@
+{
+    "posts": [
+      { "id": 1, "title": "Es una prueba", "author": "Nuria" },
+      { "id": 1, "title": "Es una prueba2", "author": "Nuria", "contenido":" algo tendra" }
+    ],
+    "comments": [
+      { "id": 1, "body": "un comentario", "postId": 1 },
+      { "id": 2, "body": "otro comentario", "postId": 2 }
+    ],
+    "profile": { "name": "typicode" }
+  }

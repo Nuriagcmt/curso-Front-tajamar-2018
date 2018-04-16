@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="./formulario.css">
+    <script src="./form_app.js" type="module"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Formulario: CLASES DE JARDINERIA Y MEDIO AMBIENTE</h1>
+    </header>
+    <main>
+        <form action="" method="GET" id='form1'>
+            <fieldset>
+                <legend>Datos personales</legend>
+                <div class="control-group">
+                    <label for="nombre">Escribe tu nombre</label>
+                    <input type="text" name="nombre" id="nombre" maxlength="20" 
+                     required minlength="2" autofocus>
+                </div>
+                <div class="control-group">
+                    <label for="apellido">Escribe tu primer apellido</label>
+                    <input type="text" name="apellido" id="apellido" 
+                    placeholder="Escribe tu primer apellido" required>
+                   
+                </div>
+               <div>
+                    <label for="apellido">Escribe tu segundo apellido</label>
+                    <input type="text" name="segundo apellido" id="segundo apellido">
+               </div>
+                <div class="control-group">
+                    <label for="email">Escribe tu correo</label>
+                    <input type="email" name="email" id="email" 
+                        required placeholder="Escribe un correo">
+                </div>
+                
+                
+                <div class="control-group">
+                    <label for="passwd">Escribe tu contraseña</label>
+                    <input type="password" name="passwd" id="pw_usua" placeholder="Escribe la contraseña">
+                   
+                </div>
+                <div class="control-group">
+                    <label for="passwd">Repite tu contraseña</label>
+                    <input type="password" name="passwd" id="pw_usua2" placeholder="Repite la contraseña">
+                   
+                </div>
+            </fieldset>
+            <fieldset>
+                <div id="div_fecha" class="control-group">
+                    <label for="fecha">Fecha de nacimiento</label>
+                    <input type="date" name="fecha" id="fecha">
+                </div>                
+            </fieldset>
+            <fieldset >
+                    <legend>Aficiones</legend>
+                    <div>
+                            <label for="musica">Música</label>
+                            <input type="checkbox" name="Musica" id="musica">
+                            <label for="Viajar">Viajar</label>
+                            <input type="checkbox" name="Viajar" id="Viajar">
+                            <label for="Pintura">Pintura</label>
+                            <input type="checkbox" name="Pintura" id="Pintura">
+                            <label for="Fotografia">Fotografia</label>
+                            <input type="checkbox" name="Fotografia" id="Fotografia">
+                            <label for="Cine">Cine</label>
+                            <input type="checkbox" name="Cine" id="Cine">
+                            <label for="Lectura">Lectura</label>
+                            <input type="checkbox" name="Lectura" id="Lectura">
+                            <label for="Deporte">Deporte</label>
+                            <input type="checkbox" name="Deporte" id="Deporte">
+                            <label for="Baile">Baile</label>
+                            <input type="checkbox" name="Baile" id="Baile">
+    
+                    </div>
+                        
+                      
+                      
+                
+            </fieldset>
+            <fieldset id="acedemic" class="mostrar">
+                <legend>Datos academicos</legend>
+               
+                <div class="control-group">
+                    <label for="curso">Selecciona un curso</label>
+                    <select name="curso" id="curso">
+                        <option value=""></option>
+                        <option value="jardineria">Jardineria</option>
+                        <option value="paisajismo">Paisajismo</option>
+                        <option value="rural">Medio Rural</option>
+                        <option value="huerto">Huerto Urbano</option>
+                    </select>
+                </div>
+                <div id="div_topics" class="control-group mostrar">
+                    <label for="curso">Asignuras: </label>
+                    <select name="topics" id="topics" ></select>
+                </div>                    
+            </fieldset>
+            <div class="control-group">
+               
+                <button type="submit" id="btnEnviar">Enviar Datos</button>
+               
+                <button type="reset" id="btnBorrar">Restablecer valores</button>
+                
+                <input type="hidden" name="state" value="0">
+            </div>
+        </form>
+      
+
+        <script>
+            var meses = new Array ("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre");
+            var diasSemana = new Array("Domingo","Lunes","Martes","Miércoles","Jueves","Viernes","Sábado");
+            var f=new Date();
+            document.write(diasSemana[f.getDay()] + ", " + f.getDate() + " de " + meses[f.getMonth()] + " de " + f.getFullYear());
+      </script>
+    </main>
+    <footer>
+        Nuria 
+    </footer>
+</body>
+
+</html>

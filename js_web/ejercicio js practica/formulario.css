@@ -1,0 +1,30 @@
+*, *::after, *::before, *:after, *:before {
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(65, 240, 202);
+    margin: 3rem;
+    color: rgb(5, 54, 5)
+}
+main {
+    min-height: 60vh;
+}
+main button{
+    color: rgb(0, 128, 28)
+}
+
+main div {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+main div.output {
+    border: 1px solid chartreuse;
+    width: 50%;
+}
+h1{
+   
+    font-size: 3rem;
+    margin-bottom: 0;
+    color: green;}

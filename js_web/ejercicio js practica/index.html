@@ -36,18 +36,18 @@
                 <div class="control-group">
                     <label for="email">Escribe tu correo</label>
                     <input type="email" name="email" id="email" 
-                        required placeholder="Escribe un correo">
+                        required placeholder="Escribe tu correo">
                 </div>
                 
                 
                 <div class="control-group">
                     <label for="passwd">Escribe tu contraseña</label>
-                    <input type="password" name="passwd" id="pw_usua" placeholder="Escribe la contraseña">
+                    <input type="password" name="passwd" id="pw_usua" requiered placeholder="Escribe la contraseña">
                    
                 </div>
                 <div class="control-group">
                     <label for="passwd">Repite tu contraseña</label>
-                    <input type="password" name="passwd" id="pw_usua2" placeholder="Repite la contraseña">
+                    <input type="password" name="passwd" id="pw_usua2" required placeholder="Repite la contraseña">
                    
                 </div>
             </fieldset>
@@ -107,17 +107,21 @@
                
                 <button type="reset" id="btnBorrar">Restablecer valores</button>
                 
-                <input type="hidden" name="state" value="0">
+                
+                
             </div>
         </form>
-      
-
+        <div id="resultados" class="resultados"></div>
+<div>
         <script>
-            var meses = new Array ("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre");
-            var diasSemana = new Array("Domingo","Lunes","Martes","Miércoles","Jueves","Viernes","Sábado");
-            var f=new Date();
-            document.write(diasSemana[f.getDay()] + ", " + f.getDate() + " de " + meses[f.getMonth()] + " de " + f.getFullYear());
-      </script>
+                var meses = new Array ("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre");
+                var diasSemana = new Array("Domingo","Lunes","Martes","Miércoles","Jueves","Viernes","Sábado");
+                var f=new Date();
+                document.write(diasSemana[f.getDay()] + ", " + f.getDate() + " de " + meses[f.getMonth()] + " de " + f.getFullYear());
+                </script>
+         
+</div>
+        
     </main>
     <footer>
         Nuria 

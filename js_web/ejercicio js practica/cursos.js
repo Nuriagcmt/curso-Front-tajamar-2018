@@ -9,7 +9,7 @@ export const CURSOS = [
      ] },
      {titulo: 'Medio Rural', 
      asignaturas : [
-         'Tipo de tierras', 'Zonas de secano/regadio', 'Agricultura Ecologica'
+         'Tipo de tierras', 'Zonas de secano/regadio', 'Agricultura Ecológica'
      ] },
      {titulo: 'Huerto Urbano', 
      asignaturas : [

@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+
+.header,.footer{
+min-height: 6rem;
+background-color: bisque;
+color:blue;
+}
+
+.lado{
+    float: left;
+    padding: 3rem;
+}
+
+.lat_izq{
+    width:80%;
+}
+.lat_dch{
+    width: 20%;
+}
+.main{
+
+overflow: hidden;
+
+}
+.columnas_2{
+
+    column-count: 2;
+    column-gap: 3rem;
+    
+}
+.columnas_2 p:nth-of-type(1) {   
+    margin-top:  0px
+
+} /* esto es para que las dos columnas midas lo mismo */
+
+.tabla{
+    display: table;
+}
+.fila{
+    display: table-row;
+    width: 100%;
+}
+.columna{
+    display: table-cell;
+    width: 50%;
+    padding: 2rem;
+    background-color: bisque;
+}

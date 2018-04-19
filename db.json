@@ -1,11 +1,55 @@
 {
-    "posts": [
-      { "id": 1, "title": "Es una prueba", "author": "Nuria" },
-      { "id": 1, "title": "Es una prueba2", "author": "Nuria", "contenido":" algo tendra" }
-    ],
-    "comments": [
-      { "id": 1, "body": "un comentario", "postId": 1 },
-      { "id": 2, "body": "otro comentario", "postId": 2 }
-    ],
-    "profile": { "name": "typicode" }
+  "posts": [
+    {
+      "id": 1,
+      "title": "Es una prueba",
+      "author": "Nuria"
+    },
+    {
+      "id": 1,
+      "title": "Es una prueba2",
+      "author": "Nuria",
+      "contenido": " algo tendra"
+    },
+    {
+      "title": "El Hobbit",
+      "author": "JRR Tolkien",
+      "id": 2
+    },
+    {
+      "title": "El Hobbit",
+      "author": "JRR Tolkien",
+      "id": 3
+    },
+    {
+      "title": "El Hobbit",
+      "author": "JRR Tolkien",
+      "id": 4
+    },
+    {
+      "title": "El Hobbit",
+      "author": "JRR Tolkien",
+      "id": 5
+    },
+    {
+      "title": "Alicia ",
+      "author": "JRR Tolkien",
+      "id": 6
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "un comentario",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "otro comentario",
+      "postId": 2
+    }
+  ],
+  "profile": {
+    "name": "typicode"
   }
+}

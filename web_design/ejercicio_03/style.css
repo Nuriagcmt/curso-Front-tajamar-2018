@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 96%;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+/* usabilidad:
+La eleccion de los colores de fondo del body "antiquewhite" esta elegida para que contraste con la letra y sea mas legible.
+accesibilidad:
+La elección de color no perjudica la vision en caso de ceguera del color.
+*/
+.body{
+    background-color: antiquewhite;
+    
+}
+
+.header, .footer {
+    min-height: 4rem;
+    background-color:brown;
+    color:antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_h1 {
+    font-size: 5rem;
+    width: 100%;
+    flex: 12 1 auto;
+    padding: 1rem;
+}
+.header_h2, .header_h3{
+    color: brown;
+    /* Accesibilidad: Dar el tamaño de las fuentes en rem es para que cuando el usuario con baja visión lo amplie lo pueda ver mejor y amplie lo necesario. */
+}
+.header_h2{
+    font-size: 3rem;
+}
+.header_h3{
+    font-size: 2rem;
+}
+
+.ul_menu {
+    background-color: antiquewhite;
+    display: flex;
+    /* border: antiquewhite; */
+    align-items:center;
+    flex-wrap:wrap; 
+    align-content: space-around;
+    flex-direction: column-reverse;
+}
+.a{
+    border: 1px solid antiquewhite;
+    align-items:center;
+    font-size: 1rem;
+    padding: 1rem;
+   
+    
+}
+.p1{
+    font-size: 2rem;
+}
+.descuento{
+    color: red;
+}
+.menu{
+    font-size: 1rem;
+    padding: 1rem;
+    background-color:brown;
+    color: antiquewhite;
+   /*  border: 1px solid ;
+    */
+
+}
+
+ 
+
+.menu_icon {
+    width: 10%;
+    flex: 1 1 auto;
+}
+
+.img_nav_icon{
+    width: 100%;
+}
+
+
+.nav_desk {
+    display: none;
+}
+
+.img_wrapper {
+    width: 98%;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.imagen {
+    width: 100%;
+}
+.nav_desk{
+    display: inline;
+}
+
+}
+
+
+@media screen and (min-width:  480px) {
+
+    .img_wrapper {
+        width: 49%;
+        margin-right: 2rem;
+        margin-left: 2rem;
+        float: left;
+    
+    }
+
+    .menu_icon {
+        display: flex;
+    }
+    .nav_desk {
+        display : flex;
+    }
+    .nav_mobile {        
+        display:flex;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    .main {
+        display: flex;
+    }
+}
+    .section_wrapper{
+        width: 50%98%;
+        flex: 10 1 auto;
+        padding-right: 2rem; 
+    }
+    .aside_wrapper{
+        width: 10%;
+        flex: 1 1 auto;
+        padding-left: 2rem;
+    }
+    .menu_icon {
+        display: none;
+    }
+
+    @media screen and (min-width: 1024px) {
+        .section_wrapper {
+            display : flex;
+        }
+        .section {
+            padding-right: 2rem; 
+            padding-left: 2rem;
+        }
+
+    }
